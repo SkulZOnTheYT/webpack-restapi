@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes App</title>
+</head>
+<body>
+    <div class="container">
+        <app-header></app-header>
+        <main class="app-layout">
+            <section id="note-form">
+                <note-form></note-form>
+            </section>
+            <section id="notes-list">
+                <div id="notes-grid"></div>
+            </section>
+        </main>
+        <button id="toggle-archived" class="toggle-button">Show Archived Notes</button>
+    </div>
+    <loading-indicator></loading-indicator>
+</body>
+</html>
